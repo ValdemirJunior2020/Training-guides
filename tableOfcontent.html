@@ -13,6 +13,9 @@
             font-family: Arial, sans-serif;
             margin: 20px;
             line-height: 1.6;
+            background-image: url('hotelplanner_corrected_pattern.png'); /* Use the corrected pattern image */
+            background-repeat: repeat;
+            background-size: 200px 200px; /* Adjust the size of the pattern */
         }
         h1, h2 {
             color: #333;
@@ -31,72 +34,128 @@
         a:hover {
             text-decoration: underline;
         }
+        .content-container {
+            background: rgba(255, 255, 255, 0.85); /* White background with transparency for better readability */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
     </style>
 </head>
 <body>
 
     <div class="container">
-        <h1 class="text-center my-4">Training Guide Table of Contents</h1>
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="content-container">
+                    <h1 class="text-center my-4">Training Guide Table of Contents</h1>
 
-        <div class="row">
-            <div class="col-md-8 offset-md-2">
-                <h2>1. Customer Service Voice Training</h2>
-                <ul class="list-group">
-                    <li class="list-group-item">
-                        <a href="introductionToHotelPlanner.html">1.1. Introduction to HotelPlanner</a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="documentation.html">1.2. Documenting Notes and Drop Down Selections</a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="cancellation.html">1.3. Cancellation of Reservation</a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="modification.html">1.4. Modification of Reservation</a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="vouchers.html">1.5. Vouchers</a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="voiceEscalationMatrix.html">1.6. Voice Escalation Matrix</a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="ChargesandDisputes/ChargesandDisputes.html">1.7. Charges and Disputes</a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="hotelBuyersClub/hotelBuyersClub.html">1.8. Hotel Buyers Club Loyalty Program</a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="sendingReceipt/sendingReceipt.html">1.9. Sending Receipt</a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="Corrency/currency.html">1.10. Currency</a> <!-- Added the Currency link -->
-                    </li>
-                    <li class="list-group-item">
-                        <a href="PhoneticAlphabet/phoneticAlphabet.html">1.11. Phonetic Alphabet</a>
-                    </li>
-                    
-                    <li class="list-group-item">
-                        <a href="StateAbbreviations/StateAbbreviations.html">1.12. US State Abbreviations</a>
-                    </li>
-                    
-                    <li class="list-group-item">
-                        <a href="SoftSkills/SoftSkills.html">1.13. Soft Skills</a>
-                    </li>
-                    
-                    <li class="list-group-item">
-                        <a href="#slack">1.14. Using Slack</a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="#quality-assurance">1.15. Voice Quality Assurance Form</a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="#refund-protection">1.16. Refund Protection</a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="#payment-ivr">1.17. Payment IVR</a>
-                    </li>
-                </ul>
+                    <h2>1. Customer Service Voice Training</h2>
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <a href="introductionToHotelPlanner.html">1.1. Introduction to HotelPlanner</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="documentation.html">1.2. Documenting Notes and Drop Down Selections</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="cancellation.html">1.3. Cancellation of Reservation</a> <!-- Corrected link -->
+                        </li>
+                        <li class="list-group-item">
+                            <a href="modification.html">1.4. Modification of Reservation</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="vouchers.html">1.5. Vouchers</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="voiceEscalationMatrix.html">1.6. Voice Escalation Matrix</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="ChargesandDisputes/ChargesandDisputes.html">1.7. Charges and Disputes</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="hotelBuyersClub/hotelBuyersClub.html">1.8. Hotel Buyers Club Loyalty Program</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="sendingReceipt/sendingReceipt.html">1.9. Sending Receipt</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="Corrency/currency.html">1.10. Currency</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="StateAbbreviations/StateAbbreviations.html">1.11. US State Abbreviations</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="PhoneticAlphabet/phoneticAlphabet.html">1.12. Phonetic Alphabet</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="SoftSkills/SoftSkills.html">1.13. Soft Skills</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="#slack">1.14. Using Slack</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="voiceQualityAssurance.html">1.15. Voice Quality Assurance Form</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="RefundProtection/RefundProtection.html">1.16. Refund Protection</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="PaymentIVR/PaymentIVR.html">1.17. Payment IVR</a>
+                        </li>
+                    </ul>
+
+                    <h2>2. Customer Service Groups Training</h2>
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <a href="#groups-extended-stays">2.1. Groups and Extended Stays</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="#group-flights">2.2. Group Flights</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="#meeting-space">2.3. Meeting Space Only</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="#group-quality-assurance">2.4. Group Quality Assurance Form</a>
+                        </li>
+                    </ul>
+
+                    <h2>3. Customer Service Ticket Training</h2>
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <a href="#zendesk">3.1. Zen Desk Training</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="#refunds-tickets">3.2. Refunds on Cancellations – Tickets</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="#modification-tickets">3.3. Modification of Reservation – Tickets</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="#disputes-tickets">3.4. Disputes and Charges- Tickets</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="#ticket-escalation">3.5. Ticket Escalation Matrix</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="#supplier-requests">3.6. Supplier Portal Requests</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="#relocation-vip">3.7. Relocation Requests and VIP</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="#ticket-quality-assurance">3.8. Ticket Quality Assurance Form</a>
+                        </li>
+                    </ul>
+
+                    <h2>4. Customer Service Call Ahead Training</h2>
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <a href="#call-ahead-overview">4.1. Call Ahead Overview</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
