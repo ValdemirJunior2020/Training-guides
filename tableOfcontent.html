@@ -41,6 +41,13 @@
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
         }
     </style>
+
+    <script>
+        function showGameAlert() {
+            alert("Please scroll down and click 'Play Quiz'");
+            window.location.href = "https://www.sporcle.com/games/g/states";
+        }
+    </script>
 </head>
 <body>
 
@@ -60,7 +67,7 @@
                         <a class="nav-link" href="https://www.hotelplanner.com" target="_blank">HotelPlanner.com</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="games.html">Games</a>
+                        <a class="nav-link" href="#" onclick="showGameAlert()">Games</a> <!-- Pop-up for Games -->
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="https://sparkling-cascaron-46da38.netlify.app/">Tools</a>
